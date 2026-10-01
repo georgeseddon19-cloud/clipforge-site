@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · ClipForge</title>
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="icon.png" alt="">
+    <a class="brand" href="./">ClipForge</a>
+    <nav><a href="./">Home</a><a href="terms.html">Terms</a><a href="privacy.html" aria-current="page">Privacy</a></nav>
+  </header>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 1 October 2026</p>
+
+    <div class="card"><b>In short:</b> ClipForge runs on your own computer and keeps your data there. It has no server of its own and never sells your data. Data is sent to another service only when you use a feature that needs that service (listed in section 4).</div>
+
+    <h2>1. Data ClipForge receives from TikTok</h2>
+    <p>Only if you connect a TikTok account, and only with the permissions you approve on TikTok's sign-in page:</p>
+    <ul>
+      <li><b>Profile:</b> display name, username, profile picture, bio, profile link and verified status (scopes <code>user.info.basic</code>, <code>user.info.profile</code>).</li>
+      <li><b>Statistics:</b> follower, following, like and video counts (<code>user.info.stats</code>).</li>
+      <li><b>Your public videos:</b> ID, title, description, duration, cover image, share link, creation time, and view, like, comment and share counts (<code>video.list</code>).</li>
+      <li><b>Uploads:</b> if you turn uploads on (<code>video.upload</code>), ClipForge sends the clips you choose to your TikTok inbox as drafts and reads back their upload status. Nothing is posted publicly unless you post it yourself in the TikTok app.</li>
+    </ul>
+
+    <h2>2. How the data is used</h2>
+    <p>To show your account's growth and each video's performance inside ClipForge, to link those numbers to the clips you made, and to send drafts you ask for. It is not used for advertising or profiling.</p>
+
+    <h2>3. Where it is stored</h2>
+    <p>On your computer only, in ClipForge's data folder (<code>%APPDATA%\ClipForge</code>). TikTok sign-in tokens and API keys are encrypted with Windows' built-in data protection. ClipForge has no server and no analytics or tracking.</p>
+
+    <h2>4. Who it is shared with</h2>
+    <p>ClipForge does not sell or rent your data. Data leaves your computer only when you use a feature that calls one of these services, which process it on your behalf:</p>
+    <ul>
+      <li><b>TikTok</b>, to sign in, read your statistics and upload drafts.</li>
+      <li><b>Anthropic (Claude API)</b>, only if you add a Claude API key and use the AI features. To pick clips and write captions, it receives transcripts of the videos you process and one still frame per video. If you run the trend analysis, it also receives the titles and view and like counts of clips you have posted, which can include figures read from TikTok. See <a href="https://www.anthropic.com/legal/privacy">Anthropic's privacy policy</a>.</li>
+      <li><b>Google (YouTube Data API)</b> and <b>Twitch</b>, only for searches and public trend data you request, using keys you provide.</li>
+    </ul>
+
+    <h2>5. Keeping and deleting data</h2>
+    <ul>
+      <li><b>Disconnect</b> on ClipForge's TikTok page revokes ClipForge's access and deletes the stored sign-in tokens.</li>
+      <li>You can also remove ClipForge's access at any time in TikTok's app-permission settings.</li>
+      <li>Deleting the <code>%APPDATA%\ClipForge</code> folder removes everything ClipForge has stored.</li>
+    </ul>
+
+    <h2>6. Children</h2>
+    <p>ClipForge is not intended for anyone under 18.</p>
+
+    <h2>7. Changes</h2>
+    <p>This policy may be updated. The date at the top shows when it last changed.</p>
+
+    <h2>8. Contact</h2>
+    <p>Questions or requests about your data: <a href="https://github.com/georgeseddon19-cloud/clipforge-site/issues">open an issue on GitHub</a>.</p>
+  </main>
+  <footer>© 2026 ClipForge · <a href="./">Home</a> · <a href="terms.html">Terms</a></footer>
+</body>
+</html>
